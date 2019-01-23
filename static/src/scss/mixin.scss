@@ -1,0 +1,17 @@
+// 垂直居中
+@mixin alignCenter($position: relative, $rotate: rotateZ(0)) {
+  position:$position;
+  top:50%;
+  transform:translateY(-50%) $rotate;
+}
+
+@mixin zen($unit: 5px) {
+  width:$unit;
+  height:$unit;
+}
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

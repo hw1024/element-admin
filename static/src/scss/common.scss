@@ -1,0 +1,10 @@
+html{font-family:"Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif}
+p, body{margin:0}
+a{text-decoration:none}
+
+$scrollbarWidth: 4px;
+div::-webkit-scrollbar{width:$scrollbarWidth; border-radius:$scrollbarWidth}
+div::-webkit-scrollbar-thumb{background:#ffc979; @extend div::-webkit-scrollbar}
+
+.common-view{text-align:center; height:100%; font-size:20px; background:url('/img/1001.gif') no-repeat center 40%; background-size:100px; @include flex}
+.line-clamp-1{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
