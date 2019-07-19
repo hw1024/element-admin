@@ -5,7 +5,7 @@
       <div class="region-header">
         <h3 class="regisson-title">
           <i class="fa fa-delicious"></i>
-          <span>{{ name }}当期风险 eeees概述</span>
+          <span>{{ name }}当期风  ddd险 eeees概述</span>
         </h3>
       </div>
       <div class="region-body">
