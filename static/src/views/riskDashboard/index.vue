@@ -3,9 +3,9 @@
     <NavItem :id="id" :name="name" :data-level="dataLevel" @getTimeChangeEvent = "getTimeChange"></NavItem>
     <div class="dashboard-region dashboard-region-cur">
       <div class="region-header">
-        <h3 class="region-title">
+        <h3 class="regisson-title">
           <i class="fa fa-delicious"></i>
-          <span>{{ name }}当期风险概述</span>
+          <span>{{ name }}当期风险 eeees概述</span>
         </h3>
       </div>
       <div class="region-body">
