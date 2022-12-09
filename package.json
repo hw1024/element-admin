@@ -3,7 +3,7 @@
     "async-validator": "^1.10.1",
     "body-parser": "^1.18.3",
     "chinese-random-name": "^0.1.3",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "format-datetime": "^1.0.2",
     "fs": "^0.0.1-security",
     "identicon.js": "^2.3.3",
